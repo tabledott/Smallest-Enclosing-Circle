@@ -1,0 +1,9 @@
+D:\FMI\Magistratura\GeometryAndMorphology\SmallestEnclosingCircle\SmallestEnclosingCircle\bin\Debug\SmallestEnclosingCircle.exe
+D:\FMI\Magistratura\GeometryAndMorphology\SmallestEnclosingCircle\SmallestEnclosingCircle\bin\Debug\SmallestEnclosingCircle.pdb
+D:\FMI\Magistratura\GeometryAndMorphology\SmallestEnclosingCircle\SmallestEnclosingCircle\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\FMI\Magistratura\GeometryAndMorphology\SmallestEnclosingCircle\SmallestEnclosingCircle\obj\x86\Debug\SmallestEnclosingCircle.Form1.resources
+D:\FMI\Magistratura\GeometryAndMorphology\SmallestEnclosingCircle\SmallestEnclosingCircle\obj\x86\Debug\SmallestEnclosingCircle.Properties.Resources.resources
+D:\FMI\Magistratura\GeometryAndMorphology\SmallestEnclosingCircle\SmallestEnclosingCircle\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\FMI\Magistratura\GeometryAndMorphology\SmallestEnclosingCircle\SmallestEnclosingCircle\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\FMI\Magistratura\GeometryAndMorphology\SmallestEnclosingCircle\SmallestEnclosingCircle\obj\x86\Debug\SmallestEnclosingCircle.exe
+D:\FMI\Magistratura\GeometryAndMorphology\SmallestEnclosingCircle\SmallestEnclosingCircle\obj\x86\Debug\SmallestEnclosingCircle.pdb
