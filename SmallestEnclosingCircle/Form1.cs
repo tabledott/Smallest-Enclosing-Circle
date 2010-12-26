@@ -10,8 +10,24 @@ using System.Collections;
 
 namespace SmallestEnclosingCircle
 {
+
     public partial class Form1 : Form
     {
+        private class Circle
+        {
+            Point Center;
+            double radius;
+            Circle(Point Center, double radius)
+            {
+                this.Center = Center;
+                this.radius = radius;
+            }
+            bool belongsToCircle(Point other)
+            {
+                return Math.Abs(GetDistance(Center, other) - radius) < 0.0001;
+            }
+        }
+
         public Form1()
         {
             InitializeComponent();
@@ -28,8 +44,12 @@ namespace SmallestEnclosingCircle
         private void DrawCircle_Click(object sender, EventArgs e)
         {
             Point centre = (Point)points[0];
-            double dist = GetDistance((Point)points[0], (Point)points[1]);
-            g.DrawArc(new Pen(Color.Red), centre.X, centre.Y, (int)dist, (int)dist, 0, 360);
+            int r = (int)GetDistance((Point)points[0], (Point)points[1]);
+            int x = centre.X - r;
+            int y = centre.Y - r;
+            int width = 2 * r;
+            int height = 2 * r;
+            g.DrawArc(new Pen(Color.Red), x, y, width, height, 0, 360);
         }
 
         private void ClearPoints_Click(object sender, EventArgs e)
@@ -39,12 +59,13 @@ namespace SmallestEnclosingCircle
             points.Clear();
         }
 
-        private double GetDistance(Point first, Point second)
+        private static double GetDistance(Point first, Point second)
         {
             return Math.Sqrt((first.X - second.X) * (first.X - second.X) + (first.Y - second.Y) * (first.Y - second.Y));
         }
 
         private ArrayList points;
         private Graphics g;
+
     }
 }
